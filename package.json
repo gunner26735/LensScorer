@@ -1,0 +1,74 @@
+{
+  "name": "stalk-nfts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@apollo/client": "^3.8.3",
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "alchemy-sdk": "^2.2.1",
+    "antd": "^4.23.6",
+    "aos": "^3.0.0-beta.6",
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security",
+    "graphql": "^16.8.0",
+    "jquery": "^3.6.1",
+    "moralis-v1": "^1.11.0",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flip-numbers": "^3.0.7",
+    "react-lazy-load": "^4.0.1",
+    "react-lazy-load-image-component": "^1.5.5",
+    "react-moralis": "^1.4.2",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "swiper": "^8.4.4",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0"
+  },
+  "resolve.fallback": {
+    "os": false
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.2"
+  }
+}
